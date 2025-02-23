@@ -1,0 +1,3 @@
+# Exclude Terragrunt cache directories
+.terragrunt-cache/
+**/.terragrunt-cache/
