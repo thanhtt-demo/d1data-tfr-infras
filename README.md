@@ -7,9 +7,6 @@ This repository contains Terraform and Terragrunt configurations for managing D1
 - Terraform >= 1.10.5
 - Terragrunt >= 0.70.2
 - AWS CLI configured with appropriate credentials
-- S3 bucket for remote state storage
-- DynamoDB table for state locking
-
 
 ## Configuration
 
