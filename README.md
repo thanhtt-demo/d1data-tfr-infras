@@ -21,6 +21,7 @@ The project uses Terragrunt for maintaining DRY infrastructure code. Key configu
 
 1. Navigate to demo directory
 2. Run terragrunt commands:
+
 ```bash
 terragrunt init
 terragrunt plan
@@ -30,6 +31,7 @@ terragrunt apply
 ## State Management
 
 State files are stored remotely in AWS S3 with the following configuration:
+
 - Bucket: `d1data-remote-state`
 - Key: Based on relative path
 - Region: Defined in region.hcl
@@ -43,7 +45,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+<http://www.apache.org/licenses/LICENSE-2.0>
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
